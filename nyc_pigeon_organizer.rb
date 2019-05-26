@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-  data[:gender].each do 
+  data[:gender].each do |gen_key
 
 
 end
