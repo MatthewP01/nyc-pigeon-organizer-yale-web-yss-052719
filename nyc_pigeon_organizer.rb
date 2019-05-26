@@ -27,6 +27,10 @@ def nyc_pigeon_organizer(data)
       hash_key.each do |gend|
         if name == gend
           new_hash[gend][:gender] << gen_key.to_s
+        end
+      end
+    end
+  end
 
 
 
