@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-  data[:color].each do |key_col, value|
+  data[:color].each do |key_col, col_value|
     value.each do |name|
       hash_key = new_hash.keys
       hash_key.each do |colour|
@@ -23,7 +23,7 @@ def nyc_pigeon_organizer(data)
   end
 
   data[:gender].each do |gen_key, value|
-    
+    value.
 
 
 end
