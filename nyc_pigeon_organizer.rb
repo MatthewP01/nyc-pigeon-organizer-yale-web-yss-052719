@@ -2,6 +2,7 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
   new_hash = {}
+  hash_key = new_hash.keys
 
   data.each do |attribute, info|
     info.each do |key, name|
@@ -13,7 +14,6 @@ def nyc_pigeon_organizer(data)
 
   data[:color].each do |key_col, col_value|
     col_value.each do |name|
-      hash_key = new_hash.keys
       hash_key.each do |colour|
         if name === colour
           new_hash[colour][:color] << key_col.to_s
@@ -24,6 +24,7 @@ def nyc_pigeon_organizer(data)
 
   data[:gender].each do |gen_key, gen_value|
     gen_value.each do |name|
+
 
 
 end
