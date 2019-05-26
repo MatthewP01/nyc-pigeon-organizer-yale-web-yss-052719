@@ -5,7 +5,8 @@ def nyc_pigeon_organizer(data)
 
   data.each do |attribute, info|
     info.each do |key, name|
-      name
+      name.each do |enter|
+        
 
     end
   end
