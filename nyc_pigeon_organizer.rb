@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-  hash_key = final.keys
+  hash_key = new_hash.keys
   data[:color].each do |key_col, col_value|
     col_value.each do |name|
       hash_key.each do |colour|
