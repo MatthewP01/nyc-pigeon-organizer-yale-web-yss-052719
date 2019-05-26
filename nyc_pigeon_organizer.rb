@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
     col_value.each do |name|
       hash_key.each do |colour|
         if name === colour
-          new_hash[colour][:color] << key_col
+          new_hash[colour][:color] << key_col.to_s
         end
       end
     end
@@ -26,7 +26,7 @@ def nyc_pigeon_organizer(data)
     gen_value.each do |name_d_bird|
       hash_key.each do |gend|
         if name_d_bird === gend
-          new_hash[gend][:gender] << gen_key
+          new_hash[gend][:gender] << gen_key.to_s
         end
       end
     end
