@@ -2,7 +2,6 @@
 #
 def nyc_pigeon_organizer(data)
   new_hash = {}
-  hash_key = new_hash.keys
 
   data.each do |attribute, info|
     info.each do |key, name|
