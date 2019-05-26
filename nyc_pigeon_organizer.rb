@@ -34,7 +34,7 @@ def nyc_pigeon_organizer(data)
 
   data[:lives].each do |lives_key, lives_value|
     lives_value.each do |name|
-      hash_key.each do |gend|
+      hash_key.each do |liv|
         if name == gend
           new_hash[gend][:gender] << gen_key.to_s
         end
