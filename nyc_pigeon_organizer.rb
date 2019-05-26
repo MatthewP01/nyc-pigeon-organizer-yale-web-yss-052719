@@ -35,7 +35,7 @@ def nyc_pigeon_organizer(data)
   data[:lives].each do |lives_key, lives_value|
     lives_value.each do |name|
       hash_key.each do |liv|
-        if name == liv
+        if name === liv
           new_hash[liv][:lives] << lives_key
         end
       end
